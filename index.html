@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DevByte</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        /* Custom styles go here */
+        body {
+            background-color: #e6e6e6; /* Change background color */
+            color: #343a40;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 10px 0;
+            text-align: right; /* Align content to the right */
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 15px 0 0; /* Provide spacing from the right side */
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .featured-materials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .material-card {
+            width: 250px;
+            margin: 15px;
+            padding: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .material-card img {
+            max-width: 100%; /* Ensure the image doesn't exceed the container */
+            max-height: 100%; /* Ensure the image doesn't exceed the container */
+            object-fit: cover; /* Maintain aspect ratio while covering */
+            border-radius: 5px; /* Optional: Add rounded corners to the image */
+            margin-bottom: 10px; /* Optional: Add margin below the image */
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DevBytes</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2 align="center">Our Materials</h2>
+        <div class="featured-materials">
+            <div class="material-card">
+                <img src="images/javascript_img.png" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <a href="materials/javascript-1.pdf" target="_blank">Notes</a><br>  
+                <a href="https://github.com/harshitvee/javascript-beginning-to-mastery" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/css_img.png" alt="CSS">
+                <h3>CSS</h3>
+                <a href="materials/css_1.pdf">Notes</a>
+            </div>
+            <div class="material-card">
+                <img src="images/html_img.png" alt="HTML">
+                <h3>HTML</h3>
+                <a href="materials/html_tutorial.pdf" target="_blank">Notes</a>
+            </div>
+            <div class="material-card">
+                <img src="images/c_img.png" alt="C Programming">
+                <h3>C Programming</h3>
+                <a href="materials/C language.pdf" target="_blank">Notes_1</a><br>
+                <a href="materials/c-programming-notes.pdf" target="_blank">Notes_2</a><br>
+                <a href="materials/C-Programming.pdf" target="_blank" >CheatSheet</a>
+            </div>
+            <div class="material-card">
+                <img src="images/python_img.jpeg" alt="Python Programming">
+                <h3>Python</h3>
+                <a href="materials/python.pdf" target="_blank">Notes</a><br>
+                <a href="https://github.com/Akuli/python-tutorial" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/java_img.png" alt="Java Programming">
+                <h3>Java Programming</h3>
+                <a href="materials/OOPS 629.pdf" target="_blank">Notes</a><br>
+                <a href="materials/javanotes5.pdf" target="_blank">ebook</a><br>
+                <a href="https://github.com/in28minutes/java-tutorial-for-beginners" target="_blank">github</a>
+                
+            </div>
+            <div class="material-card">
+                <img src="images/php_img.jpeg" alt="PHP">
+                <h3>PHP</h3>
+                <a href="materials/php_cookbook.pdf" target="_blank">Notes</a><br>
+                <a href="https://github.com/odan/learn-php" target="_blank">github</a>
+            </div>
+            
+            <div class="material-card">
+                <img src="images/machinelearning_img.png" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <a href="materials/MachineLearning.pdf" target="_blank">Notes</a><br>
+                <a href="https://github.com/maykulkarni/Machine-Learning-Notebooks" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/numpy_img.png" alt="NumPy">
+                <h3>NumPy</h3>
+                <a href="materials/Numpy_Hand_Written_Notes.pdf" target="_blank">Notes</a> <br>
+                <a href="https://github.com/eric496/numpy-tutorial" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/pandas_img.png" alt="Pandas">
+                <h3>Pandas</h3>
+                <a href="materials/Pandas_Handwritten_Notes.pdf" target="_blank">Notes</a> <br>
+                <a href="https://github.com/TirendazAcademy/PANDAS-TUTORIAL" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/matplotlib_img.png" alt="Matplotlib">
+                <h3>Matplotlib</h3>
+                <a href="materials/matplotlib_tutorial.pdf" target="_blank">Notes</a><br>
+                <a href="https://github.com/veb-101/Numpy-Pandas-Matplotlib-Tutorial/tree/master/matplotlib" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/seaborn_img.png" alt="Seaborn">
+                <h3>Seaborn</h3>
+                <a href="materials/seaborn_tutorial.pdf" target="_blank">Notes</a><br>
+                <a href="https://github.com/clair513/Seaborn-Tutorial" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/mongodb_img.jpeg" alt="MongoDB">
+                <h3>MongoDB</h3>
+                <a href="materials/mongodb.pdf">Notes</a>
+            </div>
+            <div class="material-card">
+                <img src="images/sql_img.png" alt="SQL">
+                <h3>SQL</h3>
+                <a href="materials/sql.pdf">ebook</a><br>
+                <a href="https://github.com/engineeringwitharavind/SQL" target="_blank">github</a>
+            </div>
+            <div class="material-card">
+                <img src="images/softwareengineering_img.jpeg" alt="Software Engineering">
+                <h3>Software Engineering</h3>
+                <a href="materials/SE629.pdf">Notes</a>
+            </div>
+            <div class="material-card">
+                <img src="images/operatingsystem_img.png" alt="Operating System">
+                <h3>Operating System</h3>
+                <a href="materials/SE629.pdf">Notes</a>
+            </div>
+            <!-- Add more featured materials as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
